@@ -21,7 +21,7 @@ function exactMatch(drivers, driverAttributes){
     let matching = true;
     
     for(const key in driverAttributes){
-      if(driverAttributes[key] !=== driver[key]){
+      if(driverAttributes[key] !== driver[key]){
         matching = false
       }
     }
