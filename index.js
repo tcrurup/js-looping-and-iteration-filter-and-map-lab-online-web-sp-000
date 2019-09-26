@@ -17,6 +17,6 @@ function exactMatch(drivers, driverAttribute){
   
   const key = driverAttribute.key
   return drivers.filter(function(driver){
-    
+    driver.key = driverAttribute.key
   });
 }
