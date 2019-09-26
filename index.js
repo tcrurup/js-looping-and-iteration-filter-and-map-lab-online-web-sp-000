@@ -21,10 +21,12 @@ function exactMatch(drivers, driverAttributes){
     let matching = true;
     
     for(const key in driverAttributes){
-      if(driverAttributes[key] )
+      if(driverAttributes[key] !=== driver[key]){
+        matching = false
+      }
     }
     
     
-    return !matching.includes(false);
+    return matching
   });
 }
