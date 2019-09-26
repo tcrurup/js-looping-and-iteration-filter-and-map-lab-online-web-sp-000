@@ -22,6 +22,6 @@ function exactMatch(drivers, driverAttributes){
       driver[key] === driverAttributes[key];
     });
     
-    return !matching.include?(false)
+    //return !matching.include?(false)
   });
 }
