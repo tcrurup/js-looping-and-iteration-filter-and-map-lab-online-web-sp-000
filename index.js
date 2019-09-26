@@ -13,6 +13,6 @@ function driverNamesWithRevenueOver(driverArray, revenueThreshold){
   });
 }
 
-function exactMatch(){
+function exactMatch(driverArray){
   
 }
