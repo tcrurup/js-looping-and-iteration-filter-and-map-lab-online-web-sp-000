@@ -19,7 +19,7 @@ function exactMatch(drivers, driverAttributes){
     
     
     const matching = driverAttributes.map(function(key){
-      
+      driver[key] === driverAttributes[key]
     });
   });
 }
