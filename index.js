@@ -9,6 +9,6 @@ function driversWithRevenueOver(driverArray, revenueThreshold){
 function driverNamesWithRevenueOver(driverArray, revenueThreshold){
   
   driverNamesWithRevenueOver(driverArray, revenueThreshold).map(function(driver){
-    
+    return driver.name;
   });
 }
