@@ -2,6 +2,8 @@
 function driversWithRevenueOver(driverArray, revenue){
   
   return driverArray.map(function(driver){
-    return driver.revenue > revenue;
+    if(driver.revenue > revenue){
+      return driver;
+    };
   });
 }
