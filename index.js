@@ -18,6 +18,8 @@ function exactMatch(drivers, driverAttributes){
   return drivers.filter(function(driver){
     let isMatch = false;
     
-    driverAttributes.forEach
+    driverAttributes.filter(function(key){
+      
+    });
   });
 }
