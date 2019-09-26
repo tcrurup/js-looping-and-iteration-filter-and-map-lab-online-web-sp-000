@@ -5,3 +5,10 @@ function driversWithRevenueOver(driverArray, revenueThreshold){
     if(driver.revenue > revenueThreshold){ return driver; }
   });
 }
+
+function driverNamesWithRevenueOver(driverArray, revenueThreshold){
+  
+  return driverArray.filter(function(driver){
+    if(driver.revenue > revenueThreshold){ return driver; }
+  });
+}
