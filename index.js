@@ -15,8 +15,8 @@ function driverNamesWithRevenueOver(driverArray, revenueThreshold){
 
 function exactMatch(drivers, driverAttribute){
   
-  const key = driverAttribute.key
-  debugger
+  const key = driverAttribute.key;
+  debugger;
   return drivers.filter(function(driver){
     return driver[key] === driverAttribute[key]
   });
