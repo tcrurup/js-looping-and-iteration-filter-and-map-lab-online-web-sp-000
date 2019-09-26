@@ -15,4 +15,7 @@ function driverNamesWithRevenueOver(driverArray, revenueThreshold){
 
 function exactMatch(drivers){
   
+  return drivers.filter(function(driver){
+    
+  });
 }
