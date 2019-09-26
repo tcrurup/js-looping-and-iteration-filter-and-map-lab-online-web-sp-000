@@ -17,6 +17,5 @@ function exactMatch(drivers, driverAttributes){
   
   return drivers.filter(function(driver){
     
-    
   });
 }
