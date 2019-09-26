@@ -22,11 +22,11 @@ function exactMatch(drivers, driverAttributes){
     
     for(const key in driverAttributes){
       if(driverAttributes[key] !== driver[key]){
-        matching = false
+        matching = false;
       }
     }
     
     
-    return matching
+    return matching;
   });
 }
